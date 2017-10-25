@@ -51,7 +51,7 @@ header{
     color: #CC9658;
 }
 .menu-h{
-    width: 100%;
+    width: 80%;
 }
     .menu-h li{
         list-style-type: none;
@@ -64,13 +64,9 @@ header{
         .menu-h a:link,
         .menu-h a:visited{
             display: inline;
-            justify-content: center; 
-            height: 100%;
-            padding: 10px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width:100%;
+            justify-content: center;
+            width: 80%;
+            padding: 30px;
         }
         .menu-h a:hover,
         .menu-h a:active{
