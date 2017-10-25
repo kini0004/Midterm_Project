@@ -16,7 +16,7 @@ html{
     font-family: Archivo, helvetica, arial, sans-serif;
 }
 html, body{
-    background-color: #7F5E37;
+    background-color: #7F511C;
 }
 h1{
     font-size: 6.854rem;
@@ -43,12 +43,12 @@ p{
     max-width: 1400px; 
     width: 80%;
     margin: 0 auto;
-    background-color: #FFDEB8;
-    color: #FFBB6F;
+    background-color: #CC9658;
+    color: #FFDEB8;
 }
 header{
     border-bottom: 0.8rem solid khaki;
-    background-color: #7F511C;
+    background-color: #7F5E37;
     color: #CC9658;
 }
 .menu-h{
