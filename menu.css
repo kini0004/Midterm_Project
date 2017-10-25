@@ -55,6 +55,7 @@ header{
 }
     .menu-h li{
         list-style-type: none;
+        display: inline;
         /* style the list items to remove the bullets 
         and line up horizontally
         and take up 20% of the width of the ul */
@@ -75,6 +76,7 @@ header{
 }
     .menu-v li{
         list-style-type: none;
+        display: block;
         /* style the list items to remove the bullets 
         and line up vertically
         and take up 100% of the width of the ul */
