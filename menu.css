@@ -74,12 +74,7 @@ header{
         }
         .menu-h a:hover,
         .menu-h a:active{
-          background:#a37666;
-            color:#000;
-            border-top:2px solid #815444;
-            border-right:2px solid #c59888;
-            border-bottom:2px solid #c59888;
-            border-left:2px solid #815444;
+          color: black;
         }
 .menu-v{
     width: 20%;
