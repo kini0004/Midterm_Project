@@ -74,7 +74,7 @@ header{
         }
         .menu-h a:hover,
         .menu-h a:active{
-          text-decoration: underline;  
+          border-right: 2px dotted #ffffff;  
         }
 .menu-v{
     width: 20%;
