@@ -33,6 +33,7 @@ h2{
 nav li{
     font-size: 2.618rem;
     list-style-type: none;
+    text-decoration: none;
 }
 p{
     font-size: 1.618rem;
@@ -87,7 +88,7 @@ header{
         .menu-v a,
         .menu-v a:link,
         .menu-v a:visited{
-            display:block;
+            display:inline-block;
             height:100%;
             /* style the anchors to fill the entire width of the li */
         }
