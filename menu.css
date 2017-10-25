@@ -87,6 +87,8 @@ header{
         .menu-v a,
         .menu-v a:link,
         .menu-v a:visited{
+            display:block;
+            height:100%;
             /* style the anchors to fill the entire width of the li */
         }
         .menu-v a:hover,
