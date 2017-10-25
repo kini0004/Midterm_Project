@@ -53,12 +53,11 @@ header{
 .menu-h{
     width: 80%;
     float: right;
-    margin: 0;
-    padding: 10px 0;
+    padding: 10px 10px 0 10px;
 }
     .menu-h li{
         list-style-type: none;
-        display: inline;
+        display: inline-block;
         /* style the list items to remove the bullets 
         and line up horizontally
         and take up 20% of the width of the ul */
@@ -66,7 +65,7 @@ header{
         .menu-h a,
         .menu-h a:link,
         .menu-h a:visited{
-            display: inline;
+            display: inline-block;
             width: 80%;
         }
         .menu-h a:hover,
