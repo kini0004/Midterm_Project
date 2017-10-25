@@ -74,8 +74,8 @@ header{
         }
         .menu-h a:hover,
         .menu-h a:active{
-          cursor: pointer; 
-		  animation:bounceOut .4s linear; 
+          color: #662d91;
+	  padding: 10px 0;
         }
 .menu-v{
     width: 20%;
