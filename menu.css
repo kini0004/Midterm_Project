@@ -13,21 +13,21 @@ html{
     font-size: 16px;
     line-height: 1.6;
     /* ADD the Google sans-serif font to this font stack */
-    font-family: helvetica, arial, sans-serif;
+    font-family: Archivo, helvetica, arial, sans-serif;
 }
 html, body{
-    background-color: salmon;
+    background-color: 7SFE37;
 }
 h1{
     font-size: 6.854rem;
     /* ADD the Google serif font to this font stack */
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+    font-family: Neuton, 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
     padding: 1rem 2rem;
 }
 h2{
     font-size: 4.23rem;
     /* ADD the Google serif font to this font stack */
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family: Neuton, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     padding: 1rem 2rem;
 }
 nav li{
@@ -41,13 +41,13 @@ p{
     max-width: 1400px; 
     width: 80%;
     margin: 0 auto;
-    background-color: chartreuse;
-    color: rebeccapurple;
+    background-color: FFDEB8;
+    color: FFBB6F;
 }
 header{
     border-bottom: 0.8rem solid khaki;
-    background-color: cornflowerblue;
-    color: aliceblue;
+    background-color: 7F511C;
+    color: CC9658;
 }
 .menu-h{
     width: 100%;
