@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: #7F3800;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+h1 {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    margin: 10px 20px 0px 20px;
+    padding: 20px;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-top: 5%;
+    width: 90%;
+}
+
+/*Image animation stylings*/
+
+img {
+    max-width: 90%;
+    transition: transform 0.7s ease-in-out;
+    border: 3px solid;
+}
+
+img:hover {
+    transform: scale(1.25);
+    z-index: 20;
+}
+
+/*Mobile device customization*/
+
+/* Two columns */
+@media screen and (min-width: 600px) {
+
+    li {
+        width: 50%;
+    }
+}
+
+/* Four columns */
+@media screen and (min-width: 1200px) {
+    li {
+        width: 25%;
+    }
+}

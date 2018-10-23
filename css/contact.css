@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+	box-sizing: border-box;
+	line-height: 1.5;
+    background-color: #7F3800;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Input stylings*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45A049;
+}
+
+/* Contact section stylings */
+
+.container {
+    border-radius: 5px;
+    background-color: #7F3800;
+    padding: 10px;
+    font-family: 'Gill Sans', sans-serif;
+    color: aliceblue;
+    margin-left: 15%;
+    margin-right:15%;
+    width: 70%;
+}
+
+.container h2 {
+    font-weight: 200;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    display: flex;
+    
+}
+
+/* Mobile device customization */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

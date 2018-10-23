@@ -1,0 +1,27 @@
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Navigation bar hover*/
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+$background-color: #7F3800;
+
+body {
+  background-color: $background-color;
+}

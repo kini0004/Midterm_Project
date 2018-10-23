@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kinik Photography</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./css/contact.css" />
+</head>
+    
+<body>
+
+<div class="topnav">
+  <a class="active" href="/index.html">Home</a>
+  <a href="/gallery.html">Gallery</a>
+  <a href="/contact.html">Contact</a>
+</div>
+
+
+<!--For this section I used the sample example contact form code from W3Schools and made some specific changes for the consistency of the site.-->
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Form</h2>
+    <p>Please fill in the form for any inquiry.</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+      
+<!--For receiving messages I included this action, directed to my e-mail address.-->
+      <form action="mailto:bkinik@mail.com">
+        </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
